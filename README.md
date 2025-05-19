@@ -1,6 +1,6 @@
 # SignalR-Scalar-Identity Practice Project
 
-This is a practice project built using **ASP.NET Core** that demonstrates the integration of **SignalR** for real-time communication, **Scalar** for GraphQL, and **ASP.NET Core Identity** for user authentication and authorization. The project is aimed at learning and showcasing modern web development techniques using the .NET ecosystem.
+This is a practice project built using **ASP.NET Core** that demonstrates the integration of **SignalR** for real-time communication, **Scalar** for GraphQL, **Auditable EF core entites** in app db context ,and **ASP.NET Core Identity** for user authentication and authorization. The project is aimed at learning and showcasing modern web development techniques using the .NET ecosystem.
 
 ## 🚀 Features
 
@@ -14,6 +14,8 @@ This is a practice project built using **ASP.NET Core** that demonstrates the in
 - 🧬 **GraphQL API with Scalar**
   - Query and mutate data using Scalar-powered GraphQL endpoints
 
+- 📃 **Auditable EF core entites**
+  - Whenever an entity is changed it is logged into Database using EF Core.   
     
 ## 🛠 Tech Stack
 
