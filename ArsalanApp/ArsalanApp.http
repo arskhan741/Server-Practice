@@ -1,0 +1,10 @@
+@ArsalanApp_HostAddress = https://localhost:7192
+
+GET {{ArsalanApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{ArsalanApp_HostAddress}}/weatherforecast
+
+###
